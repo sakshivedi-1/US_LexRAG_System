@@ -78,7 +78,7 @@ pip install -r requirements.txt
 ```
 
 2. Environment Variables
-Create a .env file in the root directory (do not commit this file). Refer to .env.example for the required keys.
+Create a .env file in the root directory Refer to .env.example for the required keys.
 
 3. Run the Backend
 ```bash

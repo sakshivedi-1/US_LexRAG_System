@@ -12,8 +12,6 @@ env/
 # Data — do NOT commit raw PDFs or processed JSON (too large)
 data/raw/
 data/processed/
-data/chroma_db/
-data/bm25_index.pkl
 data/citation_graph.pkl
 
 # Secrets

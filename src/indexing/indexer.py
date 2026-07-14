@@ -7,7 +7,7 @@ from rank_bm25 import BM25Okapi
 CHROMA_PATH = "data/chroma_db"
 BM25_PATH = "data/bm25_index.pkl"
 
-sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="BAAI/bge-base-en-v1.5")
+sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
 
 def build_vector_index(chunks):
     """
