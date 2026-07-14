@@ -1,0 +1,21 @@
+query,category,source_document,query_type_predicted,recall@5,recall@10,mrr,answer,citation_accuracy,correctness_score,num_verified_citations,num_flagged_citations
+What are the tax filing deadlines for small business owners in 2026?,factual,irb26-20,factual,0.0,0.0,0.0,SKIPPED,,,0,0
+What is the federal short-term interest rate for April 2026?,factual,irb26-22,factual,1.0,1.0,1.0,SKIPPED,,,0,0
+What does Notice 2026-29 address?,factual,irb26-20,out_of_scope,0.0,0.0,0.0,SKIPPED,,,0,0
+What is the penalty for underpayment of estimated tax?,factual,irb26-20,factual,0.0,0.0,0.0,SKIPPED,,,0,0
+Which IRS Bulletin covers income tax changes for 2026?,factual,irb26-20,interpretive,0.0,1.0,0.14285714285714285,SKIPPED,,,0,0
+What is the corporate bond monthly yield curve?,factual,irb26-22,factual,0.0,1.0,0.14285714285714285,SKIPPED,,,0,0
+What does the SECURE Act provide for retirement savings?,factual,PLAW-118publ272,interpretive,0.0,0.0,0.0,SKIPPED,,,0,0
+What is the purpose of the Coastal Barrier Resources Act?,factual,PLAW-118publ272,factual,0.0,1.0,0.16666666666666666,SKIPPED,,,0,0
+What does 26 U.S.C. refer to?,factual,irb26-20,out_of_scope,1.0,1.0,0.3333333333333333,SKIPPED,,,0,0
+What section of the IRC covers exempt organizations?,factual,irb26-20,factual,0.0,0.0,0.0,SKIPPED,,,0,0
+What are the filing requirements for tax-exempt organizations?,factual,irb26-20,factual,0.0,0.0,0.0,SKIPPED,,,0,0
+What is the standard deduction for individual filers in 2026?,factual,irb26-20,factual,0.0,0.0,0.0,SKIPPED,,,0,0
+What does IRS Notice 2026-31 address?,factual,irb26-23,out_of_scope,1.0,1.0,0.5,SKIPPED,,,0,0
+What is the tax treatment of qualified business income?,factual,irb26-20,factual,1.0,1.0,0.3333333333333333,SKIPPED,,,0,0
+What is the capital gains tax rate for long-term investments in 2026?,factual,irb26-20,factual,0.0,0.0,0.0,SKIPPED,,,0,0
+What are the requirements for tax-deductible charitable contributions?,factual,irb26-20,factual,0.0,0.0,0.0,SKIPPED,,,0,0
+What is the gift tax annual exclusion amount for 2026?,factual,irb26-20,factual,0.0,0.0,0.0,SKIPPED,,,0,0
+What does the term 'adjusted gross income' mean in tax law?,factual,irb26-20,interpretive,0.0,0.0,0.0,SKIPPED,,,0,0
+What are the estate tax exemptions for 2026?,factual,irb26-20,factual,0.0,0.0,0.0,SKIPPED,,,0,0
+What is the IRS definition of a dependent for tax purposes?,factual,irb26-20,factual,0.0,0.0,0.0,SKIPPED,,,0,0

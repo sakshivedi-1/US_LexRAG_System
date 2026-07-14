@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "cd ui && npm install && npm run build",
+  "outputDirectory": "ui/.next",
+  "framework": "nextjs",
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://lexrag-backend.onrender.com/:match*"
+    }
+  ]
+}

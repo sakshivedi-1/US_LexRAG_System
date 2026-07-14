@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Data — do NOT commit raw PDFs or processed JSON (too large)
+data/raw/
+data/processed/
+data/chroma_db/
+data/bm25_index.pkl
+data/citation_graph.pkl
+
+# Secrets
+.env
+*.env
+
+# Node / Next.js
+ui/node_modules/
+ui/.next/
+ui/out/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
