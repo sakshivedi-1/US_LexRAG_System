@@ -4,9 +4,8 @@ LexRAG is a high-precision Retrieval-Augmented Generation (RAG) system designed 
 
 This repository contains the complete source code, evaluation metrics, and configuration files to deploy the system.
 
-## Live Deployment Links
-- Frontend UI (Vercel): [Insert Vercel URL Here]
-- Backend API (Render): [Insert Render URL Here]
+## Live Deployment Link
+- Frontend UI (Vercel): https://us-lex-rag-system-nduc.vercel.app/
 
 ## System Architecture
 
@@ -38,7 +37,7 @@ LexRAG is built on a multi-stage pipeline designed for structural accuracy and h
    -> FastAPI: POST /ask, POST /summarize
 
 5. Phase 5: UI & Deployment
-   Next.js (Vercel) frontend wired to FastAPI backend (Render).
+   Next.js (Vercel) frontend wired to FastAPI backend (Railway).
 
 ### Design Decisions
 
