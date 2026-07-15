@@ -44,5 +44,6 @@ EXPOSE 8000
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
     CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:${PORT:-8000}/health')"
 
-# Start command — sh -c ensures $PORT env variable is properly expanded at runtime
-CMD ["sh", "-c", "uvicorn src.generation.api:app --host 0.0.0.0 --port ${PORT:-8000} --workers 1 --timeout-keep-alive 30"]
+# Use Python script so PORT env var is read natively (no shell expansion needed)
+COPY start.py ./start.py
+CMD ["python", "start.py"]
