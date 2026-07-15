@@ -44,5 +44,5 @@ EXPOSE 8000
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
     CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:${PORT:-8000}/health')"
 
-# Start command — Railway injects $PORT automatically
-CMD uvicorn src.generation.api:app --host 0.0.0.0 --port ${PORT:-8000} --workers 1 --timeout-keep-alive 30
+# Start command — sh -c ensures $PORT env variable is properly expanded at runtime
+CMD ["sh", "-c", "uvicorn src.generation.api:app --host 0.0.0.0 --port ${PORT:-8000} --workers 1 --timeout-keep-alive 30"]
