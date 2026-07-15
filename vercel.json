@@ -6,7 +6,7 @@
   "rewrites": [
     {
       "source": "/api/:match*",
-      "destination": "https://lexrag-backend.onrender.com/:match*"
+      "destination": "https://uslexragsystem-production.up.railway.app/:match*"
     }
   ]
 }
