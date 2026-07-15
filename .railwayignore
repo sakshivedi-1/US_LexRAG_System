@@ -1,0 +1,43 @@
+# ──────────────────────────────────────────────────────────────────
+# .railwayignore — Files to exclude from Railway deployment build
+# ──────────────────────────────────────────────────────────────────
+
+# Git
+.git/
+.gitignore
+
+# Python cache & virtual envs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+venv/
+env/
+.venv/
+
+# Local env files (set secrets in Railway dashboard, NOT here)
+.env
+.env.local
+
+# Node.js / Frontend (deployed separately on Vercel)
+ui/node_modules/
+ui/.next/
+ui/.env.local
+
+# Development tools
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Render config (not needed on Railway)
+render.yaml

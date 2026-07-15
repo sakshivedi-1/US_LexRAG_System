@@ -2,7 +2,11 @@
 
 import { useState, useRef, useEffect } from "react";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_URL =
+  process.env.NEXT_PUBLIC_API_URL ||
+  (process.env.NODE_ENV === "production"
+    ? "https://uslexragsystem-production.up.railway.app"
+    : "http://localhost:8000");
 
 interface Citation {
   doc_name: string;
